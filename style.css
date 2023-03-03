@@ -81,3 +81,41 @@
 .content .box:nth-child(3) {
   background: linear-gradient(90deg, #404258, #333333);
 }
+
+.tabs input:nth-child(1):checked~.content {
+  left: 0;
+}
+
+.tabs input:nth-child(2):checked~.content {
+  left: -100vw;
+}
+
+.tabs input:nth-child(3):checked~.content {
+  left: -200vw;
+}
+
+.content .box .contentBx {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.content .box .contentBx ion-icon {
+  font-size: 12em;
+  color: #fff;
+  --ionicon-stroke-width: 16px;
+}
+
+.content .box .contentBx h2 {
+  font-size: 3em;
+  color: #fff;
+}
+
+.content .box .contentBx p {
+  font-size: 1.2em;
+  color: #fff;
+  max-width: 700px;
+  text-align: center;
+}
