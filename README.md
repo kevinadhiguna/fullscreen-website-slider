@@ -42,6 +42,12 @@ It allows one to customize content just like reference landing page that include
 
 <br />
 
+## To-do:
+
+- Deploy website
+
+<br />
+
 ## Reference
 
 - [How to Create a Fullscreen Website Slider with Pure CSS - Online Tutorials](https://youtu.be/HNvcg3i1i9M)
