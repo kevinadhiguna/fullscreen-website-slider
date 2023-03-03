@@ -66,3 +66,18 @@
   user-select: none;
   padding: 40px;
 }
+
+/* Content 1 */
+.content .box:nth-child(1) {
+  background: linear-gradient(90deg, #43cea2, #185a9d);
+}
+
+/* Content 2 */
+.content .box:nth-child(2) {
+  background: linear-gradient(90deg, #AAB8C2, #657786);
+}
+
+/* Content 3 */
+.content .box:nth-child(3) {
+  background: linear-gradient(90deg, #404258, #333333);
+}
