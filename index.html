@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Fullscreen Web Slider</title>
+</head>
+<body>
+  <div class="container">
+    <div class="tabs">
+      <input type="radio" name="slider" id="linkedin" checked>
+      <input type="radio" name="slider" id="twitter">
+      <input type="radio" name="slider" id="github">
+      <div class="buttons">
+        <label for="linkedin"></label>
+        <label for="twitter"></label>
+        <label for="github"></label>
+      </div>
+      <div class="content">
+
+        <!-- Content 1 -->
+        <div class="box linkedin">
+          <div class="contentBx">
+            <ion-icon name="logo-linkedin"></ion-icon>
+            <h2>LinkedIn</h2>
+            <p>
+              Manage your professional identity and Build your professional network. 
+            </p>
+            <a href="https://linkedin.com" target="_blank">
+              <button>Connect to people now</button>
+            </a>
+          </div>
+        </div>
+
+        <!-- Content 2 -->
+        <div class="box twitter">
+          <div class="contentBx">
+            <ion-icon name="logo-twitter"></ion-icon>
+            <h2>Twitter</h2>
+            <p>
+              See what's happening in the world and what people are talking
+            </p>
+            <a href="https://twitter.com" target="_blank">
+              <button>Join the threads now</button>
+            </a>
+          </div>
+        </div>
+
+        <!-- Content 3 -->
+        <div class="box github">
+          <div class="contentBx">
+            <ion-icon name="logo-github"></ion-icon>
+            <h2>GitHub</h2>
+            <p>
+              Where over 100 million developers shape the future of software, together. 
+            </p>
+            <a href="https://github.com" target="_blank">
+              <button>Start contributing now</button>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</body>
+<!-- Use Ion icons -->
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</html>
